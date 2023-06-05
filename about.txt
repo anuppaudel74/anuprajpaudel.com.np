@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<body>
+<style>
+p{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+h1{
+  font-famiy:italic;
+
+
+}
+</style>
+<main>
+<h1><ins>Introduction</ins></h1>
+<p>I am <b>Anup Raj Paudel</b>, a permanent resident of Khareha, 07 Kushma Parbat, Nepal. I was born to<b> Mr. Krishna Prasad Sharma</b> and<b> Mrs.Tulki 
+Kumari Sharma </b>on 23rd Jan 2002.there are total 5 members in my family including me,my grandmother,my father,my mother and my younger brother.</p>
+
+<h1><ins>Educational Background</ins></h1>
+<p>My academic journey has been nonetheless satisfactory so far and I am equally happy about what I have accomplished till date. Going in detail regarding
+my education history, I completed my Secondary Education Examination (SEE) from Parbat Gurukul Academy, Nepal in the year 2017 with a cumulative GPA of
+3.75 under the Nepal Examinations Board, Government of Nepal. Then I joined Morgan International Secondary School, Basundhara, Kathmandu and completed 
+my +2 in Science faculty with 3.25 GPA in the year 2019. Soon after the completion of my High School Degree examination, I immediately started researching 
+on my option for further studies. After careful research and recommendations, I decided to pursue my studies in a foreign country and for that I also gave 
+IELTS test exam and then i apply for australia.Now i am reading<b> Bachelor of networking-major in cyber security </b>in MIT college sydney,Australia.</p>
+
+<h1><ins>My likes,dislikes and hobies</ins></h1>
+<p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; 
+I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like
+ to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like 
+to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. 
+I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; I 
+like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and
+ romantic movies. I like the land and the nature, I like people. And, I like to laugh.</p>
+
+</main>
+
+
+</body>
+</html>

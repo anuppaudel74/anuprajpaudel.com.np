@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login form</title>
+<link rel="stylesheet" href="login.css">
+</head>
+
+
+<body oncontextmenu="return false">>
+<form class="box"  method="post">
+<h1>LOGIN</h1>
+<input type="text" name="userid" placeholder="username">
+<input type="password" name="pswrd" placeholder="password">
+<input type="submit" onclick="check(this.form)" name="" value="login">
+</form>
+
+<script language="javascript">
+function check(form)
+    {
+      if(form.userid.value == "anup" && form.pswrd.value == "paudel")
+     {
+       window.open('index.html')
+       }
+      else
+      {
+        alert("The username and password you entered is incorrect")
+      }
+     }
+</script>
+</body>
+</html>

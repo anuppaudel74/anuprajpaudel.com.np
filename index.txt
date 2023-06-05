@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+     <title>Anup Paudel</title>
+     <link rel="stylesheet" type="text/css" href="css/styl.css">
+     <meta name="viewport" content="width=device-width", "initial-scale=1">
+</head>
+<body>
+    <header>
+          <div class="main">
+              <div class="logo">
+                <img src="logo.jpg">
+              </div>
+              <ul>          
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                </ul>
+             </div>
+
+<div class="title">                
+<h1>ANUP PAUDEL</h1> 
+</div>           
+   <div class="button">
+   <a href="https://www.youtube.com/channel/UClse8uhL9nwx6p3dnwKOV7A" class="btn">YOU TUBE</a>
+   <a href="https://www.facebook.com/anup.paudel74" class="btn">FACEBOOK</a>
+   <a href="https://www.instagram.com/anup_paudell" class="btn">INSTAGRAM</a>
+ </div>
+    
+
+<div id="clockbox" style="text-align:left;"></div>
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+
+<div class="search">                
+<form method="GET" action="https://www.google.com/webhp">
+<input type="hidden" name="ie" value="UTF-8">
+<input type="hidden" name="oe" value="UTF-8">
+<table bgcolor="grey"><tr><td>
+<a href="https://www.google.com/"><img src="https://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google logo"></a>
+</td>
+<td>
+<input type="text" name="q" size="31" maxlength="255" value="">
+<input type="submit" name="btnG" value="Google Search">
+</td></tr></table>
+</form>
+</div>
+ 
+</header>     
+</body>
+</html>
